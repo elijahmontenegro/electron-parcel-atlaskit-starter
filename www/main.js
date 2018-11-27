@@ -6,7 +6,7 @@ const url = require('url');
 const isDev = require('electron-is-dev');
 
 
-// Let electron reloads by itself when webpack watches changes in ./app/
+// Let electron reloads bywindow. itself when webpack watches changes in ./app/
 if (isDev) {
   require('electron-reload')(__dirname, {
     electron: require('${__dirname}/../../node_modules/electron')
@@ -19,10 +19,16 @@ let mainWindow
 app.on('ready', () => {
 
     let mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
-        title: "",
-        icon: __dirname + './assets/favicon.ico',
+        width: 1024,
+        height: 728,
+        minWidth: 600, // set a min width!
+        minHeight: 300, // and a min height!
+        title: " ",
+        icon: path.join(__dirname, './assets/favicon.ico'),
+        // Remove the window frame from windows applications
+        // frame: false,
+        // Hide the titlebar from MacOS applications while keeping the stop lights
+        // titleBarStyle: 'hidden' || 'customButtonsOnHover',
         webPreferences: {
             zoomFactor: 1.0
         }
