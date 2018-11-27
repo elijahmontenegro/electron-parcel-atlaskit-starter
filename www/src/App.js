@@ -45,7 +45,7 @@ class App extends Component {
           navigationWidth={this.context.navOpenState.width}
           navigation={<StarterNavigation onNavResize={this.props.onNavResize} location={this.props.location} />}
         >
-          <Route exact path='/' component={HomePage} />
+          <Route exact path='/dashboard' component={HomePage} />
           <Route path='/commands' component={CommandsPage} />
           <Route path='/components' component={ComponentsPage} />
           <Route path='/redux' component={ReduxPage} />

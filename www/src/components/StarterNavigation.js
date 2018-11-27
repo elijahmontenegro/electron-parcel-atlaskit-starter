@@ -12,14 +12,16 @@ import CreateIcon from '@atlaskit/icon/glyph/add'
 import AtlassianIcon from '@atlaskit/icon/glyph/atlassian'
 import ArrowleftIcon from '@atlaskit/icon/glyph/arrow-left'
 import ComponentIcon from '@atlaskit/icon/glyph/component'
+import MenuIcon from '@atlaskit/icon/glyph/menu';
 
 import CreateDrawer from '../components/CreateDrawer'
 import atlaskitLogo from '../images/atlaskit.png'
+import { FaMoon } from 'react-icons/fa'
 
 export default class StarterNavigation extends React.Component {
   state = {
     navLinks: [
-      ['/', 'Home', DashboardIcon],
+      ['/dashboard', 'Home', DashboardIcon],
       ['/commands', 'Commands', GearIcon],
       ['/components', 'Components', ComponentIcon],
       ['/redux', 'Redux', ComponentIcon]
@@ -56,13 +58,14 @@ export default class StarterNavigation extends React.Component {
         containerHeaderComponent={() => (
           <AkContainerTitle
             icon={
-              <img alt='atlaskit logo' src={atlaskitLogo} />
+              <FaMoon />
+              // <img alt='atlaskit logo' src={atlaskitLogo} />
             }
             text='Xtreme QA Tool'
           />
         )}
         globalPrimaryIcon={globalPrimaryIcon}
-        globalPrimaryItemHref='/'
+        // globalPrimaryItemHref='/dashboard'
         hasBlanket
         drawers={[
           <AkCreateDrawer
