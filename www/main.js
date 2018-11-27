@@ -3,10 +3,14 @@ const electron = require('electron')
 const { app, BrowserWindow } = electron
 const path = require('path');
 const url = require('url');
+const isDev = require('electron-is-dev');
+
 
 // Let electron reloads by itself when webpack watches changes in ./app/
-if (process.env.ELECTRON_START_URL) {
-  require('electron-reload')(__dirname)
+if (isDev) {
+  require('electron-reload')(__dirname, {
+    electron: require('${__dirname}/../../node_modules/electron')
+  })
 }
 
 // To avoid being garbage collected
@@ -24,7 +28,7 @@ app.on('ready', () => {
         }
     })
 
-    const startUrl = process.env.ELECTRON_START_URL || url.format({
+    const startUrl = 'http://localhost:1234' || url.format({
             pathname: path.join(__dirname, './../build/index.html'),
             protocol: 'file:',
             slashes: true

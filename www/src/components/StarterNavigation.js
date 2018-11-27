@@ -21,10 +21,10 @@ import { FaMoon } from 'react-icons/fa'
 export default class StarterNavigation extends React.Component {
   state = {
     navLinks: [
-      ['/dashboard', 'Home', DashboardIcon],
-      ['/commands', 'Commands', GearIcon],
-      ['/components', 'Components', ComponentIcon],
-      ['/redux', 'Redux', ComponentIcon]
+      ['/dashboard', 'Dashboard', DashboardIcon],
+      ['/commands', 'Launcher', GearIcon],
+      ['/components', 'Jira', ComponentIcon],
+      ['/redux', 'Team', ComponentIcon]
     ]
   }
 
