@@ -4,8 +4,8 @@ This is a minimal viable Electron app using Parcel and Atlassian's Atlaskit star
 
 ### Whats included
   - Electron
-  - React
   - Parcel
+  - React
   - Atlaskit
   
   
