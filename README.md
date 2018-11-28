@@ -8,6 +8,7 @@ This is a minimal viable Electron app using Parcel and Atlassian's Atlaskit star
   - Parcel
   - Atlaskit
   
+  
 ## Install
 ```bash
 git clone https://github.com/b8394edf/electron-parcel-atlaskit-starter.git MyProject
