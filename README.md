@@ -1,5 +1,7 @@
 # Meet my freinds Electron, Parcel and Atlaskit
 
+![Preview](https://i.imgur.com/S7nZJZ4.jpg)
+
 This is a minimal viable Electron app using Parcel and Atlassian's Atlaskit starter.
 
 ### Whats included
