@@ -1,4 +1,4 @@
-# Electron, Parcel and Atlaskit
+# Meet Electron, Parcel and Atlaskit
 
 A minimal viable Electron app using Parcel and Atlassian's Atlaskit starter.
 
