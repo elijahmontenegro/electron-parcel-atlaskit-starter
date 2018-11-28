@@ -1,7 +1,7 @@
 {
-  "name": "xtremeqatool-atlasparcel",
+  "name": "electron-parcel-atlaskit-starter",
   "version": "0.0.1",
-  "description": "A work in progress.. Come back later!",
+  "description": "A minimal viable Electron app using Parcel and Atlassian's Atlaskit sample project.",
   "homepage": "./www",
   "scripts": {
     "dev": "parcel ./www/src/index.html -d build/",
@@ -63,7 +63,7 @@
     "wait-on": "^3.2.0"
   },
   "build": {
-    "appId": "cig.xtremeqatool.app",
+    "appId": "electron.atlaskit.app",
     "files": [
       "./www/main.js",
       "dist/*"
