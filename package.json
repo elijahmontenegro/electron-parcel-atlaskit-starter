@@ -1,6 +1,6 @@
 {
   "name": "electron-parcel-atlaskit-starter",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "A minimal viable Electron app using Parcel and Atlassian's Atlaskit sample project.",
   "homepage": "./www",
   "scripts": {
