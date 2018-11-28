@@ -7,7 +7,6 @@ This is a minimal viable Electron app using Parcel and Atlassian's Atlaskit star
   - React
   - Parcel
   - Atlaskit
-  - Electron Builder
   
 ## Install
 ```bash
