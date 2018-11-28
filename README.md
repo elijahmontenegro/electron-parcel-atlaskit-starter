@@ -2,7 +2,7 @@
 
 A minimal viable Electron app using Parcel and Atlassian's Atlaskit starter.
 
-### Included
+### Included in this starter
   - Electron
   - React
   - Parcel
