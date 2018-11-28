@@ -1,4 +1,4 @@
-# A work in progress.. Come back later!
+# Electron, Parcel and Atlaskit starter kit
 
 A minimal viable Electron app using Parcel and Atlassian's Atlaskit starter.
 
