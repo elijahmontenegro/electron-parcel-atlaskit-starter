@@ -52,11 +52,11 @@ export default class StarterNavigation extends React.Component {
         onResize={this.props.onNavResize}
         containerHeaderComponent={() => (
           <AkContainerTitle
-            href="https://atlaskit.atlassian.com/"
+            href="/"
             icon={
               <img alt="atlaskit logo" src={atlaskitLogo} />
             }
-            text="Atlaskit"
+            text="Hello World"
           />
         )}
         globalPrimaryIcon={globalPrimaryIcon}
