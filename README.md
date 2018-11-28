@@ -16,8 +16,9 @@ yarn
 yarn start-dev
 ```
 
-## Usagea
+## Usage
 Just open and edit. Details about the Atlaskit stater project here: https://bitbucket.org/atlassian/atlaskit-starter/src/master/
+
 
 ## Using more Atlaskit components
 This repo ships with some of the Atlaskit components such as @atlaskit/navigation and @atlaskit/avatar.
