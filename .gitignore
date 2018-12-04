@@ -20,3 +20,9 @@ yarn-error.log
 
 # Tern
 .tern-port
+
+#dotnet
+.vs
+obj
+packages
+bin

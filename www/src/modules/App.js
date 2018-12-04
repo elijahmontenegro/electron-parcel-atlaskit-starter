@@ -5,9 +5,25 @@ import Modal from '@atlaskit/modal-dialog';
 import Page from '@atlaskit/page';
 import '@atlaskit/css-reset';
 
+// import bridgeManager, { Bridge } from "../bridges/bridge-manager";
+// import { DialogBridge } from "../bridges/testBridge";
 import StarterNavigation from '../components/StarterNavigation';
 
 export default class App extends Component {
+  // _dialogBridge: DialogBridge;
+
+//   constructor() {
+//     super(props);
+//   }
+  
+//   componentWillMount() {
+//     this._loadBridges();
+//   }
+
+//  async _loadBridges() {
+//     this._dialogBridge = await bridgeManager.getBridge<DialogBridge>("dialogBridge");
+//   }
+
   state = {
     flags: [],
     isModalOpen: false,

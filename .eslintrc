@@ -23,6 +23,11 @@
         "no-console": 1,
         "no-unexpected-multiline": "warn"
     },
+    "overrides": [
+        {
+          "excludedFiles": "**/bridge*.js"
+        }
+    ],
     "settings": {
         "react": {
             "pragma": "React",
